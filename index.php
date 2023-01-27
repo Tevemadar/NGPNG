@@ -75,3 +75,4 @@ do {
 curl_multi_close($mh);
 header("Content-Type: image/png");
 imagepng($image);
+imagedestroy($image);
